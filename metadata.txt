@@ -1,0 +1,27 @@
+[general]
+name=LineChainer
+qgisMinimumVersion=3.16
+qgisMaximumVersion=3.99
+description=Chain multiple touching polylines into a single polyline
+description[fr]=Chaîne plusieurs polylignes se touchant en une seule polyligne
+version=0.1.0
+author=Your Name
+email=your@email.com
+
+about=LineChainer allows you to interactively merge multiple touching polylines into a single polyline. Select a starting line, follow the chain automatically or choose manually when ambiguity arises. Supports an offset/buffer option for lines that do not perfectly connect.
+about[fr]=LineChainer permet de fusionner interactivement plusieurs polylignes se touchant en une seule. Sélectionnez une ligne de départ, suivez la chaîne automatiquement ou choisissez manuellement en cas d'ambiguïté. Supporte un offset/buffer pour les lignes qui ne se connectent pas parfaitement.
+
+tracker=https://github.com/yourname/line_chainer/issues
+repository=https://github.com/yourname/line_chainer
+
+changelog=
+    0.1.0 - Initial release
+
+tags=line,merge,chain,polyline,vector
+homepage=https://github.com/yourname/line_chainer
+category=Vector
+icon=icon.png
+experimental=True
+deprecated=False
+server=False
+hasProcessingProvider=False
